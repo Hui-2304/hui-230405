@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/huy.png"
+  avatar           : "images/huy.jpg"
   name             : "Bao Huy"
   pronouns         : # example: "she/her"  
   bio              : "Students who are studying and working in the field of the Internet of Things"
