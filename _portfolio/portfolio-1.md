@@ -1,26 +1,25 @@
 ---
-
-title: "3-Channel LM35 Temperature Monitoring System"
-excerpt: "A project demonstrating teamwork using Git, sensor data acquisition, and JSON formatting on Arduino microcontroller.<br/><img src='/images/arduino-project.png'>"
+title: "Arduino LM35 Temperature Monitoring System"
+excerpt: "Multi-channel temperature monitoring system using Arduino and LM35 with real-time output (CSV/JSON)<br/><img src='/images/arduino-project.png'>"
 collection: portfolio
----------------------
+permalink: /portfolio/lm35-temp-monitor/
+---
 
 ## Project Overview
-
-This project focuses on building a multi-channel temperature monitoring system using LM35 sensors and an Arduino microcontroller. A key highlight of the project is the professional teamwork workflow using Git/GitHub for source code management.
+This project implements a multi-channel temperature monitoring system using LM35 sensors and an Arduino board. The system reads analog signals (A0, A1, A2), converts them into temperature values (°C), and outputs real-time data.
 
 ## Key Features
+- Multi-channel temperature sensing (A0, A1, A2)
+- ADC to temperature conversion
+- Real-time Serial communication
+- Output formats: CSV and JSON
+- Easy integration with IoT systems
 
-* Simultaneous data acquisition from **3 LM35 sensor channels**.
-* ADC signal processing and conversion to Celsius.
-* Output data to Serial Monitor in **JSON format** for easy integration with other systems.
+## Git Workflow Applied
+- Feature Branch Workflow
+- Pull Request & Merge
+- Conflict Resolution
+- Git commands: `git log`, `git show`, `git blame`
 
-## Git Skills Applied
-
-* Branch management using the **Feature Branch Workflow** model.
-* Handling source code conflicts (**Merge Conflict Resolution**).
-* Using tracking commands: `git log`, `git show`, `git blame`.
-
-## Repository Link
-
-* View the full source code at: [GitHub Repository](https://github.com/Hui-2304/Arduino_LM35_TempMonitor)
+## Repository
+ [View on GitHub](https://github.com/Hui-2304/Arduino_LM35_TempMonitor)
